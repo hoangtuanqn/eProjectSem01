@@ -1,0 +1,328 @@
+.contact {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact__grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 60px 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.contact__info {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+.contact__form-wrapper {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+.contact__title {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgb(18, 18, 18);
+}
+
+.contact__text {
+    font-size: 1.6rem;
+    color: rgba(18, 18, 18, 0.75);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.contact__store-detail-link {
+    color: inherit;
+}
+.contact__store-detail-link:hover {
+    color: rgba(18, 18, 18, 0.75);
+}
+.contact__store.active .contact__store-detail-link:hover {
+    color: rgba(248, 227, 227, 0.785);
+}
+/* Store List Styles */
+.contact__stores {
+    margin-top: 40px;
+}
+
+.contact__stores-title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgb(18, 18, 18);
+}
+.contact__loading {
+    width: 200px;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.contact__stores-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact__store {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f5f5f5;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.contact__store:hover {
+    background: #eeeeee;
+}
+
+.contact__store.active {
+    background: rgb(18, 18, 18);
+    color: white;
+}
+
+.contact__store-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.contact__store-name {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact__store-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    line-height: 1.4;
+    gap: 10px;
+}
+
+.contact__store-detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 1.4rem;
+    color: inherit;
+}
+
+.contact__store-icon {
+    width: 18px;
+    height: 18px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.contact__store-arrow {
+    width: 20px;
+    height: 20px;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    opacity: 0.5;
+}
+
+.contact__store-arrow.active {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 1;
+}
+
+.contact__form-title {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgb(18, 18, 18);
+}
+
+.contact__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact__form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact__form-label {
+    font-size: 1.5rem;
+    color: rgb(18, 18, 18);
+}
+
+.contact__form-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid rgba(18, 18, 18, 0.1);
+    border-radius: 4px;
+    font-size: 1.5rem;
+    -webkit-transition: border-color 0.2s ease;
+    -o-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+}
+
+.contact__form-input:focus {
+    outline: none;
+    border-color: rgb(18, 18, 18);
+}
+
+.contact__form-textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact__form-submit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.contact__map {
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+.contact__map iframe {
+    width: 100%;
+    height: 100%;
+}
+.contact__form-input.error {
+    border: 1px solid red;
+}
+
+.contact__message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.contact__message.success {
+    color: green;
+}
+
+.contact__message.error {
+    color: red;
+}
+
+.contact__loading {
+    width: 20px;
+    height: 20px;
+}
+
+.contact__form-input[type="file"] {
+    padding: 8px;
+    border: 1px dashed rgba(18, 18, 18, 0.2);
+    background-color: #f8f8f8;
+}
+
+.contact__form-input[type="file"]:hover {
+    border-color: rgba(18, 18, 18, 0.4);
+}
+
+.contact__rating-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .contact__grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact__info {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .contact__form-wrapper {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .contact__title {
+        font-size: 3rem;
+    }
+
+    .contact__form-title {
+        font-size: 2.4rem;
+    }
+
+    .contact__store {
+        padding: 15px;
+    }
+
+    .contact__store-name {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        margin-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .contact__title {
+        font-size: 2.4rem;
+    }
+
+    .contact__stores-title {
+        font-size: 2rem;
+    }
+}

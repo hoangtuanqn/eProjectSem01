@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "category": "Primary School Uniforms",
+        "src": "/assets/imgs/primary_school_uniforms/product-1.jpg"
+    },
+    {
+        "id": 2,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-1.jpg"
+    },
+    {
+        "id": 3,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-1.jpg"
+    },
+    {
+        "id": 4,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-2.jpg"
+    },
+    {
+        "id": 5,
+        "category": "University Uniforms",
+        "src": "/assets/imgs/university_uniforms/product-1.webp"
+    },
+    {
+        "id": 6,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-2.jpg"
+    },
+    {
+        "id": 7,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-3.jpg"
+    },
+    {
+        "id": 8,
+        "category": "Primary School Uniforms",
+        "src": "/assets/imgs/primary_school_uniforms/product-2.jpg"
+    },
+    {
+        "id": 9,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-4.jpg"
+    },
+    {
+        "id": 10,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-5.jpg"
+    },
+    {
+        "id": 11,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-3.jpg"
+    },
+    {
+        "id": 12,
+        "category": "University Uniforms",
+        "src": "/assets/imgs/university_uniforms/product-2.webp"
+    },
+    {
+        "id": 13,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-6.jpg"
+    },
+    {
+        "id": 14,
+        "category": "Primary School Uniforms",
+        "src": "/assets/imgs/primary_school_uniforms/product-3.jpg"
+    },
+    {
+        "id": 15,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-7.jpg"
+    },
+    {
+        "id": 16,
+        "category": "University Uniforms",
+        "src": "/assets/imgs/university_uniforms/product-3.webp"
+    },
+    {
+        "id": 17,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-8.jpg"
+    },
+    {
+        "id": 18,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-4.jpg"
+    },
+    {
+        "id": 19,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-9.jpg"
+    },
+    {
+        "id": 20,
+        "category": "Primary School Uniforms",
+        "src": "/assets/imgs/primary_school_uniforms/product-4.jpg"
+    },
+    {
+        "id": 21,
+        "category": "University Uniforms",
+        "src": "/assets/imgs/university_uniforms/product-4.webp"
+    },
+    {
+        "id": 22,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-10.jpg"
+    },
+    {
+        "id": 23,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-5.jpg"
+    },
+    {
+        "id": 24,
+        "category": "University Uniforms",
+        "src": "/assets/imgs/university_uniforms/product-5.webp"
+    },
+    {
+        "id": 25,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-11.jpg"
+    },
+    {
+        "id": 26,
+        "category": "Primary School Uniforms",
+        "src": "/assets/imgs/primary_school_uniforms/product-5.jpg"
+    },
+    {
+        "id": 27,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-12.jpg"
+    },
+    {
+        "id": 28,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-6.jpg"
+    },
+    {
+        "id": 29,
+        "category": "University Uniforms",
+        "src": "/assets/imgs/university_uniforms/product-6.webp"
+    },
+    {
+        "id": 30,
+        "category": "Primary School Uniforms",
+        "src": "/assets/imgs/primary_school_uniforms/product-6.jpg"
+    },
+    {
+        "id": 31,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-7.jpg"
+    },
+    {
+        "id": 32,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-13.jpg"
+    },
+    {
+        "id": 33,
+        "category": "Primary School Uniforms",
+        "src": "/assets/imgs/primary_school_uniforms/product-7.jpg"
+    },
+    {
+        "id": 34,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-8.jpg"
+    },
+    {
+        "id": 35,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-14.jpg"
+    },
+    {
+        "id": 36,
+        "category": "University Uniforms",
+        "src": "/assets/imgs/university_uniforms/product-7.webp"
+    },
+    {
+        "id": 37,
+        "category": "Primary School Uniforms",
+        "src": "/assets/imgs/primary_school_uniforms/product-8.jpg"
+    },
+    {
+        "id": 38,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-9.jpg"
+    },
+    {
+        "id": 39,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-15.jpg"
+    },
+    {
+        "id": 40,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-10.jpg"
+    },
+    {
+        "id": 41,
+        "category": "Primary School Uniforms",
+        "src": "/assets/imgs/primary_school_uniforms/product-9.jpg"
+    },
+    {
+        "id": 42,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-16.jpg"
+    },
+    {
+        "id": 43,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-11.jpg"
+    },
+    {
+        "id": 44,
+        "category": "University Uniforms",
+        "src": "/assets/imgs/university_uniforms/product-8.webp"
+    },
+    {
+        "id": 45,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-17.jpg"
+    },
+    {
+        "id": 46,
+        "category": "High School Uniforms",
+        "src": "/assets/imgs/high_school_uniforms/product-12.jpg"
+    },
+    {
+        "id": 47,
+        "category": "Preschool Uniforms",
+        "src": "/assets/imgs/preschool_uniforms/product-18.jpg"
+    },
+    {
+        "id": 48,
+        "category": "University Uniforms",
+        "src": "/assets/imgs/university_uniforms/product-9.webp"
+    }
+]

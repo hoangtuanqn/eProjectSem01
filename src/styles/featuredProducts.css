@@ -1,0 +1,193 @@
+.featured-products {
+    margin-top: 80px;
+}
+
+.featured-products__grid {
+    margin-top: 50px;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 30px;
+}
+
+.product-card {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product-card__image {
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    display: block; /* xóa bỏ line-height */
+    border-radius: 12px;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.product-card__rating-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.product-card__name {
+    display: block;
+    margin-top: 15px;
+    color: var(--color-grey-7);
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.product-card__price {
+    margin-top: 10px;
+    color: var(--color-grey-7);
+    line-height: 1.5;
+}
+
+.product-card__price--old {
+    color: rgba(18, 18, 18, 0.5);
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.product-card__wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.product-card__actions {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+
+.action-btn:hover {
+    background: #000;
+    color: white;
+    -webkit-transform: translateX(-3px);
+    -ms-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+.product-card__wrapper:hover::after {
+    opacity: 1;
+}
+
+.product-card:hover .product-card__actions {
+    opacity: 1;
+    -webkit-transform: translate(-10px, -50%);
+    -ms-transform: translate(-10px, -50%);
+    transform: translate(-10px, -50%);
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image-wrapper a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.product-actions {
+    z-index: 2; /* Đảm bảo nút action hiển thị trên cùng */
+}
+
+/* Responsive */
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+    /* Featured Products */
+    .featured-products {
+        margin-top: 50px;
+    }
+
+    .featured-products__grid {
+        -ms-grid-columns: 1fr 15px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .product-card__name {
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+
+    .product-card__actions {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+
+    .product-card:hover .product-card__actions {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    .action-btn {
+        opacity: 0.8;
+        width: 35px; /* Giảm kích thước nút */
+        height: 35px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+    .featured-products__grid {
+        -ms-grid-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* PC Low Resolution */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .featured-products__grid {
+        -ms-grid-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+    /* Preserve existing desktop styles */
+}

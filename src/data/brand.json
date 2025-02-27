@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "FILA",
+        "image": "/assets/imgs/brand/brand-logo-1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Ritter Sport",
+        "image": "/assets/imgs/brand/brand-logo-2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Nike",
+        "image": "/assets/imgs/brand/brand-logo-3.webp"
+    },
+    {
+        "id": 4,
+        "name": "Adidas",
+        "image": "/assets/imgs/brand/brand-logo-4.webp"
+    },
+    {
+        "id": 5,
+        "name": "New Holland",
+        "image": "/assets/imgs/brand/brand-logo-5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Puma",
+        "image": "/assets/imgs/brand/brand-logo-6.webp"
+    }
+]

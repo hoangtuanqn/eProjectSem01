@@ -1,0 +1,54 @@
+.gradient {
+    background: var(--gradient-bg);
+}
+
+.gradient__inner {
+    padding: 10px 0;
+}
+
+.gradient__email {
+    margin-left: 15px;
+}
+
+.gradient__icon {
+    margin-right: 10px;
+}
+
+.gradient__phone,
+.gradient__email,
+.gradient__message {
+    color: var(--color-text);
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/* Responsive */
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+    /* Gradient Banner */
+    .gradient .gradient__inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        padding: 8px 0;
+    }
+
+    .gradient__message {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+    /* Preserve existing desktop styles */
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah Johnson",
+        "role": "Parent",
+        "avatar": "/assets/imgs/ui-face/user-1.webp",
+        "quote": "The quality of the uniforms is exceptional! My kids love how comfortable they are, and they've held up perfectly through countless washes.",
+        "rating": 5,
+        "date": "March 15, 2024"
+    },
+    {
+        "id": 2,
+        "name": "Michael Chen",
+        "role": "School Administrator",
+        "avatar": "/assets/imgs/ui-face/user-2.webp",
+        "quote": "Working with this uniform supplier has been a pleasure. Their attention to detail and customer service is outstanding.",
+        "rating": 5,
+        "date": "March 10, 2024"
+    },
+    {
+        "id": 3,
+        "name": "Emily Rodriguez",
+        "role": "Student",
+        "avatar": "/assets/imgs/ui-face/user-3.webp",
+        "quote": "These uniforms are so stylish and comfortable! I especially love the sports uniforms - they're perfect for all my activities.",
+        "rating": 4,
+        "date": "March 5, 2024"
+    },
+    {
+        "id": 4,
+        "name": "David Thompson",
+        "role": "Parent",
+        "avatar": "/assets/imgs/ui-face/user-4.webp",
+        "quote": "Great value for money! The uniforms have lasted much longer than ones we've bought elsewhere in the past, and they still look brand new.",
+        "rating": 5,
+        "date": "February 28, 2024"
+    },
+    {
+        "id": 5,
+        "name": "Lisa Wong",
+        "role": "Teacher",
+        "avatar": "/assets/imgs/ui-face/user-5.webp",
+        "quote": "The ordering process was so smooth, and the uniforms arrived exactly as described. Very impressed with the service!",
+        "rating": 5,
+        "date": "February 20, 2024"
+    },
+    {
+        "id": 6,
+        "name": "James Wilson",
+        "role": "School Principal",
+        "avatar": "/assets/imgs/ui-face/user-6.webp",
+        "quote": "The quality control and consistency across all uniform items is remarkable. Our students look smart and professional.",
+        "rating": 5,
+        "date": "February 15, 2024"
+    }
+]

@@ -1,0 +1,429 @@
+.news-detail {
+    padding: 60px 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f8f9fa), to(#ffffff));
+    background: -o-linear-gradient(top, #f8f9fa, #ffffff);
+    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+    min-height: 100vh;
+}
+
+.news-detail__header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.news-detail__title {
+    font-weight: 700;
+    font-size: 4.2rem;
+    color: var(--color-grey-7);
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.news-detail__meta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 30px;
+    color: #666;
+    font-size: 1.6rem;
+}
+
+.news-detail__meta-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.news-detail__featured-image {
+    width: 100%;
+    /* max-height: 600px; */
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.news-detail__content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: var(--color-grey-7);
+}
+
+.news-detail__content h2 {
+    font-size: 3rem;
+    margin: 40px 0 20px;
+    color: var(--color-grey-7);
+}
+
+.news-detail__content p {
+    color: var(--color-grey-7);
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.news-detail__content img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.news-detail__content a {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-color 0.3s ease;
+    -o-transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease;
+}
+
+.news-detail__content a:hover {
+    border-color: var(--primary-color);
+}
+
+.news-detail__content ul,
+.news-detail__content ol {
+    margin: 20px 0;
+    padding-left: 24px;
+}
+
+.news-detail__content li {
+    margin-bottom: 12px;
+}
+
+.news-detail__content strong {
+    color: var(--color-grey-8);
+}
+
+.news-detail__content em {
+    font-style: italic;
+}
+
+.news-detail__share {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+}
+
+.news-detail__share-container {
+    position: relative;
+}
+
+.news-detail__share-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-7);
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 0;
+}
+
+.news-detail__share-btn:hover {
+    background-color: var(--color-grey-2);
+}
+
+.news-detail__share-menu {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    background: white;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+    min-width: 150px;
+    z-index: 100;
+}
+
+.news-detail__share-menu button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: none;
+    color: var(--color-grey-7);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.news-detail__share-menu button:hover {
+    background-color: var(--color-grey-1);
+}
+
+.news-detail__comments {
+    padding-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+.news-detail__comments h3 {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+    color: var(--color-grey-7);
+}
+
+.comment-form {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.comment-input-container {
+    flex: 1;
+}
+
+.comment-input-container textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: vertical;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.comment {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.comment-info h4 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: var(--color-grey-7);
+}
+
+.comment-info span {
+    font-size: 1.4rem;
+    color: #666;
+}
+
+.comment-content {
+    font-size: 1.6rem;
+    margin: 0;
+    color: var(--color-grey-7);
+}
+
+.reply-button {
+    border: none;
+    background: none;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 8px 0;
+}
+.btn--primary {
+    margin-top: 0;
+    margin-right: 10px;
+}
+.reply-form {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    padding-left: 40px;
+}
+
+.reply-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.replies {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.reply {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .news-detail {
+        padding: 40px 0;
+    }
+
+    .news-detail__title {
+        font-size: 2.4rem;
+    }
+
+    .news-detail__meta {
+        /* flex-direction: column; */
+        gap: 15px;
+    }
+
+    .news-detail__content {
+        font-size: 1.6rem;
+    }
+
+    .news-detail__content h2 {
+        font-size: 2.4rem;
+    }
+
+    .news-detail__share-menu {
+        right: -75px;
+    }
+
+    .comment-form {
+        flex-direction: column;
+    }
+
+    .replies {
+        padding-left: 20px;
+    }
+
+    .reply-form {
+        padding-left: 20px;
+    }
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.6rem;
+}
+
+.form-control.error {
+    border-color: #ff4d4f;
+}
+
+.error-message {
+    color: #ff4d4f;
+    font-size: 1.4rem;
+    margin-top: 5px;
+}
+
+.comment-input-container .form-group:first-child {
+    max-width: 300px;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.reply-form .form-group:first-child {
+    max-width: 250px;
+}
+
+.reply-form textarea.form-control {
+    min-height: 60px;
+}
+
+.comment-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.like-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    color: var(--color-grey-6);
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.like-button:hover {
+    background-color: var(--color-grey-2);
+}
+
+.like-button .heart-icon {
+    transition: all 0.2s ease;
+}
+
+.like-button:hover .heart-icon {
+    transform: scale(1.1);
+}
+
+.like-button.liked {
+    color: #ff4757;
+}
+
+.like-button .heart-icon.liked {
+    color: #ff4757;
+}
+
+.like-button span {
+    font-size: 1.4rem;
+    color: var(--color-grey-6);
+}
+
+.like-button.liked span {
+    color: #ff4757;
+}

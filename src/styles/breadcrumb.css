@@ -1,0 +1,67 @@
+.breadcrumb {
+    padding: 50px 0;
+    background-color: #f3f3f3;
+}
+.beardcumb__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.breadcrumb__title {
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.breadcrumb__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.breadcrumb__item {
+    font-size: 15px;
+    color: rgba(18, 18, 18, 0.75);
+}
+
+.breadcrumb__link {
+    color: rgba(18, 18, 18, 0.75);
+    text-decoration: none;
+}
+
+.breadcrumb__link:hover {
+    color: #333;
+    text-decoration: underline;
+    text-underline-offset: 3px; /* Khoảng cách underline với chữ */
+}
+
+.breadcrumb__separator {
+    color: rgba(18, 18, 18, 0.4);
+}
+
+/* Responsive */
+@media screen and (max-width: 749px) {
+    .breadcrumb__title {
+        font-size: 28px;
+    }
+
+    .breadcrumb__item {
+        font-size: 14px;
+    }
+}

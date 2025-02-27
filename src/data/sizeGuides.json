@@ -1,0 +1,289 @@
+{
+    "shirts": {
+        "title": "Shirts Size Guide",
+        "description": "Measure chest width and shirt length for the best fit",
+        "sizes": [
+            {
+                "size": "S",
+                "chest": "86-91",
+                "length": "66-68",
+                "shoulder": "42-44"
+            },
+            {
+                "size": "M",
+                "chest": "91-97",
+                "length": "68-70",
+                "shoulder": "44-46"
+            },
+            {
+                "size": "L",
+                "chest": "97-102",
+                "length": "70-72",
+                "shoulder": "46-48"
+            },
+            {
+                "size": "XL",
+                "chest": "102-107",
+                "length": "72-74",
+                "shoulder": "48-50"
+            }
+        ],
+        "measurementTips": [
+            "Chest: Measure around the fullest part of your chest",
+            "Length: Measure from shoulder to desired length",
+            "Shoulder: Measure from shoulder point to shoulder point"
+        ]
+    },
+    "skirts": {
+        "title": "Skirts Size Guide",
+        "description": "Measure waist and length for the perfect fit",
+        "sizes": [
+            {
+                "size": "S",
+                "waist": "60-65",
+                "length": "45-47"
+            },
+            {
+                "size": "M",
+                "waist": "65-70",
+                "length": "47-49"
+            },
+            {
+                "size": "L",
+                "waist": "70-75",
+                "length": "49-51"
+            },
+            {
+                "size": "XL",
+                "waist": "75-80",
+                "length": "51-53"
+            }
+        ],
+        "measurementTips": [
+            "Waist: Measure around your natural waistline",
+            "Length: Measure from waist to desired length"
+        ]
+    },
+    "frocks": {
+        "title": "Frocks Size Guide",
+        "description": "Measure bust, waist, and hip for the perfect fit",
+        "sizes": [
+            {
+                "size": "S",
+                "bust": "81-86",
+                "waist": "61-66",
+                "hip": "86-91"
+            },
+            {
+                "size": "M",
+                "bust": "86-91",
+                "waist": "66-71",
+                "hip": "91-96"
+            },
+            {
+                "size": "L",
+                "bust": "91-96",
+                "waist": "71-76",
+                "hip": "96-101"
+            },
+            {
+                "size": "XL",
+                "bust": "96-101",
+                "waist": "76-81",
+                "hip": "101-106"
+            }
+        ],
+        "measurementTips": [
+            "Bust: Measure around the fullest part of your bust",
+            "Waist: Measure around your natural waistline",
+            "Hip: Measure around the fullest part of your hips"
+        ]
+    },
+    "pttshirts": {
+        "title": "P.T. T-shirts Size Guide",
+        "description": "Measure chest width for the best fit",
+        "sizes": [
+            {
+                "size": "S",
+                "chest": "86-91",
+                "length": "66-68",
+                "shoulder": "42-44"
+            },
+            {
+                "size": "M",
+                "chest": "91-97",
+                "length": "68-70",
+                "shoulder": "44-46"
+            },
+            {
+                "size": "L",
+                "chest": "97-102",
+                "length": "70-72",
+                "shoulder": "46-48"
+            },
+            {
+                "size": "XL",
+                "chest": "102-107",
+                "length": "72-74",
+                "shoulder": "48-50"
+            }
+        ],
+        "measurementTips": [
+            "Chest: Measure around the fullest part of your chest",
+            "Length: Measure from shoulder to desired length",
+            "Shoulder: Measure from shoulder point to shoulder point"
+        ]
+    },
+    "ptshorts": {
+        "title": "P.T. Shorts Size Guide",
+        "description": "Measure waist and length for the best fit",
+        "sizes": [
+            {
+                "size": "S",
+                "waist": "60-65",
+                "length": "45-47"
+            },
+            {
+                "size": "M",
+                "waist": "65-70",
+                "length": "47-49"
+            },
+            {
+                "size": "L",
+                "waist": "70-75",
+                "length": "49-51"
+            },
+            {
+                "size": "XL",
+                "waist": "75-80",
+                "length": "51-53"
+            }
+        ],
+        "measurementTips": [
+            "Waist: Measure around your natural waistline",
+            "Length: Measure from waist to desired length"
+        ]
+    },
+    "pttrackpants": {
+        "title": "P.T. Track Pants Size Guide",
+        "description": "Measure waist and inseam for the best fit",
+        "sizes": [
+            {
+                "size": "S",
+                "waist": "76-81",
+                "inseam": "76-78"
+            },
+            {
+                "size": "M",
+                "waist": "81-86",
+                "inseam": "78-80"
+            },
+            {
+                "size": "L",
+                "waist": "86-91",
+                "inseam": "80-82"
+            },
+            {
+                "size": "XL",
+                "waist": "91-96",
+                "inseam": "82-84"
+            }
+        ],
+        "measurementTips": [
+            "Waist: Measure around the narrowest part of your waist",
+            "Inseam: Measure from the top of the inner thigh to the bottom of the ankle"
+        ]
+    },
+    "belts": {
+        "title": "Belts Size Guide",
+        "description": "Measure waist for the best fit",
+        "sizes": [
+            {
+                "size": "S",
+                "waist": "60-65"
+            },
+            {
+                "size": "M",
+                "waist": "65-70"
+            },
+            {
+                "size": "L",
+                "waist": "70-75"
+            },
+            {
+                "size": "XL",
+                "waist": "75-80"
+            }
+        ],
+        "measurementTips": ["Waist: Measure around your natural waistline"]
+    },
+    "ties": {
+        "title": "Ties Size Guide",
+        "description": "Measure length for the best fit",
+        "sizes": [
+            {
+                "size": "S",
+                "length": "140-150"
+            },
+            {
+                "size": "M",
+                "length": "150-160"
+            },
+            {
+                "size": "L",
+                "length": "160-170"
+            },
+            {
+                "size": "XL",
+                "length": "170-180"
+            }
+        ],
+        "measurementTips": ["Length: Measure from tip to tip"]
+    },
+    "logos": {
+        "title": "Logos Size Guide",
+        "description": "Measure for the best fit",
+        "sizes": [
+            {
+                "size": "S",
+                "length": "140-150"
+            },
+            {
+                "size": "M",
+                "length": "150-160"
+            },
+            {
+                "size": "L",
+                "length": "160-170"
+            },
+            {
+                "size": "XL",
+                "length": "170-180"
+            }
+        ],
+        "measurementTips": ["Length: Measure from tip to tip"]
+    },
+    "socks": {
+        "title": "Socks Size Guide",
+        "description": "Measure foot size for the best fit",
+        "sizes": [
+            {
+                "size": "S",
+                "footSize": "22-23"
+            },
+            {
+                "size": "M",
+                "footSize": "23-24"
+            },
+            {
+                "size": "L",
+                "footSize": "24-25"
+            },
+            {
+                "size": "XL",
+                "footSize": "25-26"
+            }
+        ],
+        "measurementTips": ["Foot Size: Measure around the widest part of your foot"]
+    }
+}

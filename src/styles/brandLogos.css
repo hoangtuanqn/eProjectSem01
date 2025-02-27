@@ -1,0 +1,74 @@
+/* Brand */
+.brand-logos {
+    margin-top: 80px;
+    width: 100%;
+    padding: 40px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
+
+.brand-logos__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.brand-logos__image {
+    opacity: 0.8;
+    max-width: 100px;
+    height: auto;
+    -webkit-transition: opacity var(--transition);
+    -o-transition: opacity var(--transition);
+    -webkit-transition: opacity var(--transition) 0.3s ease;
+    -o-transition: opacity var(--transition) 0.3s ease;
+    transition: opacity var(--transition) 0.3s ease;
+}
+
+.brand-logos__image:hover {
+    opacity: 1;
+}
+
+/* Responsive */
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+    /* Brand Logos */
+    .brand-logos {
+        margin-top: 50px;
+        padding: 20px 0;
+    }
+
+    .brand-logos__list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 30px 20px;
+        padding: 0 15px;
+    }
+
+    .brand-logos__image {
+        max-width: 80px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+    /* Preserve existing desktop styles */
+}

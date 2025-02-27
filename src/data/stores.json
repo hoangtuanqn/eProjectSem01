@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "Washington Square Store",
+        "address": "70 Washington Square, New York, NY 10012, USA",
+        "phone": "+(2) 123-456-789",
+        "email": "washington@maverick.com",
+        "hours": "Mon - Sat: 9:00 AM - 10:00 PM",
+        "coordinates": {
+            "lat": 40.729885,
+            "lng": -74.002849,
+            "zoom": 15
+        }
+    },
+    {
+        "id": 2,
+        "name": "Brooklyn Heights Store",
+        "address": "150 Montague St, Brooklyn, NY 11201, USA",
+        "phone": "+(2) 123-456-790",
+        "email": "brooklyn@maverick.com",
+        "hours": "Mon - Sat: 8:00 AM - 9:00 PM",
+        "coordinates": {
+            "lat": 40.694355,
+            "lng": -73.993729,
+            "zoom": 15
+        }
+    },
+    {
+        "id": 3,
+        "name": "Manhattan Central Store",
+        "address": "350 5th Ave, New York, NY 10118, USA",
+        "phone": "+(2) 123-456-791",
+        "email": "manhattan@maverick.com",
+        "hours": "Mon - Sun: 10:00 AM - 11:00 PM",
+        "coordinates": {
+            "lat": 40.748817,
+            "lng": -73.985428,
+            "zoom": 15
+        }
+    }
+]

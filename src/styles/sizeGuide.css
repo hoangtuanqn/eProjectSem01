@@ -1,0 +1,136 @@
+.size-guide {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.size-guide__intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.size-guide__categories {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 15px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.size-guide__category-btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    background: #e9ecef;
+    color: #495057;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.size-guide__category-btn.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.size-guide__content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.size-guide__title {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #212529;
+}
+
+.size-guide__description {
+    font-size: 1.6rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.size-guide__table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.size-guide__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.size-guide__table th,
+.size-guide__table td {
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.size-guide__table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #212529;
+    font-size: 1.6rem;
+}
+
+.size-guide__table td {
+    color: #495057;
+    font-size: 1.5rem;
+}
+
+.size-guide__tips h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+.size-guide__tips ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.size-guide__tips li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .size-guide__category-btn {
+        font-size: 1.4rem;
+        padding: 8px 16px;
+    }
+
+    .size-guide__title {
+        font-size: 2.5rem;
+    }
+
+    .size-guide__table th,
+    .size-guide__table td {
+        padding: 12px 15px;
+        font-size: 1.4rem;
+    }
+
+    .size-guide__tips h3 {
+        font-size: 2rem;
+    }
+}

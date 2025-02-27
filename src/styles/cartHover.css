@@ -1,0 +1,234 @@
+.header__icon-cart {
+    position: relative;
+}
+
+.header__cart-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cart-hover {
+    position: absolute;
+    top: calc(100% + 15px);
+    right: 0;
+    width: 25vw;
+    background: white;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+    -webkit-transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    padding: 20px;
+}
+
+/* Show cart hover when parent is hovered */
+.header__icon-cart:hover .cart-hover {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+/* Arrow pointer */
+.cart-hover::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: 20px;
+    width: 12px;
+    height: 12px;
+    background: white;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.cart-hover__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    color: var(--color-grey-7);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.cart-hover__items {
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 15px 0;
+    /* Custom scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-grey-7) #eee;
+}
+
+.cart-hover__items::-webkit-scrollbar {
+    width: 6px;
+}
+
+.cart-hover__items::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 3px;
+}
+
+.cart-hover__items::-webkit-scrollbar-thumb {
+    background-color: var(--color-grey-7);
+    border-radius: 3px;
+}
+
+.cart-hover__item:last-child {
+    border-bottom: none;
+}
+
+.cart-hover__item-img {
+    width: 80px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-hover__item-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.cart-hover__item-info h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-grey-7);
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+
+.cart-hover__item-info p {
+    font-size: 1.3rem;
+    color: var(--color-text);
+}
+
+.cart-hover__footer {
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.cart-hover__button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: var(--color-grey-7);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.cart-hover__button:hover {
+    background: #000;
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.cart-hover__empty {
+    text-align: center;
+    padding: 20px 0;
+    color: var(--color-text);
+    font-size: 1.4rem;
+}
+
+/* Animation for items */
+.cart-hover__item {
+    -webkit-animation: fadeInUp 0.3s ease forwards;
+    animation: fadeInUp 0.3s ease forwards;
+    opacity: 0;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 12px;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-hover__item:nth-child(2) {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.cart-hover__item:nth-child(3) {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .cart-hover {
+        display: none;
+    }
+}

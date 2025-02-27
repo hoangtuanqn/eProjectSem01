@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Jovan",
+        "role": "Founder & CEO",
+        "image": "/assets/imgs/team/team-1.webp",
+        "bio": "Jovan is the visionary behind our company, with over 15 years of experience in the fashion industry.",
+        "quote": "Fashion is not just about clothes, it's about confidence.",
+        "skills": ["Leadership", "Strategic Planning", "Fashion Trends"],
+        "social": {
+            "twitter": "https://twitter.com/jovan",
+            "linkedin": "https://linkedin.com/in/jovan",
+            "github": "https://github.com/jovan",
+            "instagram": "https://instagram.com/jovan"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Cynthia Casey",
+        "role": "Lead Designer",
+        "image": "/assets/imgs/team/team-2.webp",
+        "bio": "Cynthia brings creativity and innovation to every design, with a keen eye for detail and current trends.",
+        "quote": "Design is not just what it looks like and feels like. Design is how it works.",
+        "skills": ["Fashion Design", "Color Theory", "Textile Knowledge"],
+        "social": {
+            "twitter": "https://twitter.com/cynthiacasey",
+            "linkedin": "https://linkedin.com/in/cynthiacasey",
+            "github": "https://github.com/cynthiacasey",
+            "instagram": "https://instagram.com/cynthiacasey"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Sophia Martinez",
+        "role": "Content Strategist",
+        "image": "/assets/imgs/team/team-3.webp",
+        "bio": "Sophia crafts compelling narratives that bring our brand to life across all platforms.",
+        "quote": "Content is king, but context is god.",
+        "skills": ["Content Creation", "SEO", "Brand Storytelling"],
+        "social": {
+            "twitter": "https://twitter.com/sophiamartinez",
+            "linkedin": "https://linkedin.com/in/sophiamartinez",
+            "github": "https://github.com/sophiamartinez",
+            "instagram": "https://instagram.com/sophiamartinez"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Dollie Horton",
+        "role": "Marketing Director",
+        "image": "/assets/imgs/team/team-4.webp",
+        "bio": "Dollie leads our marketing efforts, ensuring our brand reaches and resonates with our target audience.",
+        "quote": "Marketing is no longer about the stuff that you make, but about the stories you tell.",
+        "skills": ["Digital Marketing", "Brand Management", "Data Analysis"],
+        "social": {
+            "twitter": "https://twitter.com/dolliehorton",
+            "linkedin": "https://linkedin.com/in/dolliehorton",
+            "github": "https://github.com/dolliehorton",
+            "instagram": "https://instagram.com/dolliehorton"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Isabella Rossi",
+        "role": "Social Media Manager",
+        "image": "/assets/imgs/team/team-5.webp",
+        "bio": "Isabella keeps our social media presence engaging and on-trend, connecting with our community daily.",
+        "quote": "Social media is not a media. The key is to listen, engage, and build relationships.",
+        "skills": ["Social Media Strategy", "Community Management", "Content Creation"],
+        "social": {
+            "twitter": "https://twitter.com/isabellarossi",
+            "linkedin": "https://linkedin.com/in/isabellarossi",
+            "github": "https://github.com/isabellarossi",
+            "instagram": "https://instagram.com/isabellarossi"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Olivia Bennett",
+        "role": "Visual Storyteller",
+        "image": "/assets/imgs/team/team-6.webp",
+        "bio": "Olivia captures the essence of our brand through stunning photography and videography.",
+        "quote": "A picture is worth a thousand words, but a video is worth a million.",
+        "skills": ["Photography", "Videography", "Visual Branding"],
+        "social": {
+            "twitter": "https://twitter.com/oliviabennett",
+            "linkedin": "https://linkedin.com/in/oliviabennett",
+            "github": "https://github.com/oliviabennett",
+            "instagram": "https://instagram.com/oliviabennett"
+        }
+    }
+]

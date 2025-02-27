@@ -1,0 +1,81 @@
+{
+    "products": {
+        "title": "Products",
+        "items": [
+            { "name": "Featured Products", "path": "/category/all-product" },
+            { "name": "New Arrivals", "path": "/category/all-product" },
+            { "name": "Special Offers", "path": "/category/all-product" },
+            { "name": "All Products", "path": "/category/all-product" },
+            {
+                "name": "School Uniforms",
+                "path": "",
+                "subitems": [
+                    { "name": "Shirts", "path": "/category/shirts" },
+                    { "name": "Skirts", "path": "/category/skirts" },
+                    { "name": "Frocks", "path": "/category/frocks" }
+                ]
+            },
+            {
+                "name": "Sport Uniforms",
+                "path": "",
+                "subitems": [
+                    { "name": "P.T. T-shirts", "path": "/category/pttshirts" },
+                    { "name": "P.T. Shorts", "path": "/category/ptshorts" },
+                    { "name": "P.T. Track Pants", "path": "/category/pttrackpants" }
+                ]
+            },
+            {
+                "name": "Accessories",
+                "path": "",
+                "subitems": [
+                    { "name": "Belts", "path": "/category/belts" },
+                    { "name": "Ties", "path": "/category/ties" },
+                    { "name": "Logos", "path": "/category/logos" },
+                    { "name": "Socks", "path": "/category/socks" }
+                ]
+            }
+        ]
+    },
+    "about": {
+        "title": "About",
+        "items": [
+            { "name": "About Us", "path": "/pages/about" },
+            { "name": "Careers", "path": "/pages/careers" },
+            { "name": "Partners", "path": "/pages/partners" },
+            { "name": "Awards & Recognition", "path": "/pages/awards" },
+            { "name": "Growth & Achievement", "path": "/pages/customer-growth-chart" }
+        ]
+    },
+    "media": {
+        "title": "Media",
+        "items": [
+            { "name": "News", "path": "/blog/news" },
+            { "name": "Gallery - Product Photos", "path": "/pages/gallery/product-photos" },
+            { "name": "Gallery - School Events", "path": "/pages/gallery/school-events" },
+            { "name": "Gallery - Sports Events", "path": "/pages/gallery/sports-events" }
+        ]
+    },
+    "support": {
+        "title": "Support",
+        "items": [
+            { "name": "FAQ", "path": "/pages/faq" },
+            { "name": "Policies", "path": "/pages/policies" },
+            { "name": "Contact Us", "path": "/pages/contact" },
+            { "name": "Order Tracking", "path": "/pages/order-tracking" },
+            { "name": "Size Guide", "path": "/pages/size-guide" },
+            { "name": "Sitemap", "path": "/pages/sitemap" }
+        ]
+    },
+    "activities": {
+        "title": "Activities",
+        "items": [
+            { "name": "Wishlist", "path": "/pages/wishlist" },
+            { "name": "Coupons", "path": "/pages/coupons" },
+            { "name": "Recently Products", "path": "/pages/recently-products" }
+        ]
+    },
+    "shopping": {
+        "title": "Shopping & Cart",
+        "items": [{ "name": "View Cart", "path": "/cart" }]
+    }
+}

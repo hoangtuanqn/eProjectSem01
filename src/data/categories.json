@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Shirts",
+        "image": "/assets/imgs/category/category-1.webp",
+        "slug": "shirts"
+    },
+    {
+        "id": 2,
+        "name": "Skirts",
+        "image": "/assets/imgs/category/category-2.webp",
+        "slug": "skirts"
+    },
+    {
+        "id": 3,
+        "name": "Frocks",
+        "image": "/assets/imgs/category/category-3.webp",
+        "slug": "frocks"
+    },
+    {
+        "id": 4,
+        "name": "P.T. T-shirts",
+        "image": "/assets/imgs/category/category-4.webp",
+        "slug": "pttshirts"
+    },
+    {
+        "id": 5,
+        "name": "P.T. shorts",
+        "image": "/assets/imgs/category/category-5.webp",
+        "slug": "ptshorts"
+    },
+    {
+        "id": 6,
+        "name": "P.T. track pants",
+        "image": "/assets/imgs/category/category-6.webp",
+        "slug": "pttrackpants"
+    },
+    {
+        "id": 7,
+        "name": "Belts",
+        "image": "/assets/imgs/category/category-7.webp",
+        "slug": "belts"
+    },
+    {
+        "id": 8,
+        "name": "Ties",
+        "image": "/assets/imgs/category/category-8.webp",
+        "slug": "ties"
+    },
+    {
+        "id": 9,
+        "name": "Logos",
+        "image": "/assets/imgs/category/category-9.webp",
+        "slug": "logos"
+    },
+    {
+        "id": 10,
+        "name": "Socks",
+        "image": "/assets/imgs/category/category-10.webp",
+        "slug": "socks"
+    }
+]

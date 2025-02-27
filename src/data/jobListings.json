@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Fashion Designer",
+        "department": "Design",
+        "location": "Washington Square Store",
+        "address": "70 Washington Square, New York, NY 10012, USA",
+        "type": "Full-time",
+        "description": "We are seeking a talented Fashion Designer to join our creative team at our Washington Square location. You will be responsible for designing innovative and stylish school uniforms that combine comfort, durability, and modern aesthetics.",
+        "requirements": [
+            "Bachelor's degree in Fashion Design or related field",
+            "3+ years of experience in fashion design, preferably in uniform or childrenswear",
+            "Proficiency in Adobe Creative Suite and 3D design software",
+            "Strong understanding of fabric properties and garment construction",
+            "Excellent communication and teamwork skills"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Sales Representative",
+        "department": "Sales",
+        "location": "Brooklyn Heights Store",
+        "address": "150 Montague St, Brooklyn, NY 11201, USA",
+        "type": "Full-time",
+        "description": "We are looking for an enthusiastic Sales Representative to promote our school uniform products at our Brooklyn Heights location. You will be responsible for building and maintaining client relationships, presenting our product line, and achieving sales targets.",
+        "requirements": [
+            "Bachelor's degree in Business, Marketing, or related field",
+            "2+ years of sales experience, preferably in the education or fashion industry",
+            "Strong communication and negotiation skills",
+            "Knowledge of the Brooklyn area and local schools",
+            "Excellent customer service skills"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "E-commerce Specialist",
+        "department": "Marketing",
+        "location": "Manhattan Central Store",
+        "address": "350 5th Ave, New York, NY 10118, USA",
+        "type": "Full-time",
+        "description": "We are seeking an experienced E-commerce Specialist to manage and optimize our online store operations from our Manhattan Central location. You will be responsible for improving the user experience, implementing marketing strategies, and increasing online sales of our school uniform products.",
+        "requirements": [
+            "Bachelor's degree in Marketing, Business, or related field",
+            "3+ years of experience in e-commerce management",
+            "Proficiency in web analytics tools and SEO best practices",
+            "Experience with e-commerce platforms (e.g., Shopify, WooCommerce)",
+            "Strong analytical and problem-solving skills"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Quality Control Inspector",
+        "department": "Production",
+        "location": "Manhattan Central Store",
+        "address": "350 5th Ave, New York, NY 10118, USA",
+        "type": "Full-time",
+        "description": "We are looking for a detail-oriented Quality Control Inspector to ensure that our school uniforms meet the highest standards of quality at our Manhattan Central facility. You will be responsible for inspecting materials, monitoring production processes, and conducting final product checks.",
+        "requirements": [
+            "Bachelor's degree in Textile Engineering, Quality Management, or related field",
+            "2+ years of experience in quality control, preferably in the garment industry",
+            "Strong knowledge of textile materials and garment construction techniques",
+            "Familiarity with quality management systems and standards",
+            "Excellent attention to detail and problem-solving skills"
+        ]
+    }
+]

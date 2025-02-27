@@ -1,0 +1,123 @@
+/* Check our blog start */
+.blog-posts {
+    margin-top: 80px;
+}
+
+.blog-posts__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.blog-posts__subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.blog-posts__grid {
+    margin-top: 30px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.blog-posts__item {
+    text-align: left;
+}
+
+.blog-posts__image {
+    width: 100%;
+    height: 274px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.blog-posts__content {
+    margin-top: 15px;
+}
+
+.blog-posts__name {
+    margin-top: 20px;
+    color: #121212;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.3;
+    transition: color 0.2s ease;
+}
+.blog-posts__name:hover {
+    color: rgba(18, 18, 18, 0.659);
+}
+
+.blog-posts__link {
+    margin-top: 15px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    color: #121212;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+    line-height: 1.8;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.blog-posts__image-wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.blog-posts__image:hover {
+    transform: scale(1.2);
+}
+.blog-posts__link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #121212;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.blog-posts__link:hover {
+    color: #fff;
+}
+
+.blog-posts__link:hover::before {
+    left: 0;
+}
+
+@media screen and (max-width: 749px) {
+    .blog-posts {
+        margin-top: 50px;
+    }
+    .blog-posts__grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+    .blog-posts__grid {
+        -ms-grid-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

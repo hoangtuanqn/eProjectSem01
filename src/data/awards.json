@@ -1,0 +1,36 @@
+{
+    "awards": [
+        {
+            "id": 1,
+            "icon": "/assets/icon/award-design.webp",
+            "alt": "Design Award",
+            "title": "Best School Uniform Design",
+            "year": "2023",
+            "description": "Recognized for innovative and comfortable uniform designs that combine style with practicality."
+        },
+        {
+            "id": 2,
+            "icon": "/assets/icon/award-eco.webp",
+            "alt": "Eco Award",
+            "title": "Sustainable Manufacturing Award",
+            "year": "2023",
+            "description": "Awarded for our commitment to producing high-quality school uniforms using eco-friendly practices and sustainable materials."
+        },
+        {
+            "id": 3,
+            "icon": "/assets/icon/award-quality.webp",
+            "alt": "Quality Award",
+            "title": "Quality Excellence Award",
+            "year": "2023",
+            "description": "Recognized for maintaining exceptional quality standards in uniform manufacturing and customer satisfaction."
+        },
+        {
+            "id": 4,
+            "icon": "/assets/icon/award-service.webp",
+            "alt": "Service Award",
+            "title": "Customer Service Excellence",
+            "year": "2023",
+            "description": "Awarded for outstanding customer service and support in the school uniform industry."
+        }
+    ]
+}

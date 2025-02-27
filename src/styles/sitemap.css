@@ -1,0 +1,141 @@
+.sitemap {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sitemap__header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sitemap__title {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--color-grey-7);
+    margin-bottom: 16px;
+}
+
+.sitemap__description {
+    font-size: 1.6rem;
+    color: var(--color-grey-5);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sitemap__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.sitemap__section {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.sitemap__section:hover {
+    border-color: #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.sitemap__section-title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--color-grey-7);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.sitemap__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sitemap__link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.5rem;
+    color: var(--color-grey-6);
+    transition: all 0.2s ease;
+    padding: 8px 0;
+}
+
+.sitemap__link:hover {
+    color: var(--color-grey-7);
+    transform: translateX(4px);
+}
+
+.sitemap__sublist {
+    margin-left: 24px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sitemap__sublink {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1.4rem;
+    color: var(--color-grey-5);
+    transition: all 0.2s ease;
+    padding: 6px 0;
+}
+
+.sitemap__sublink:hover {
+    color: var(--color-grey-7);
+    transform: translateX(4px);
+}
+
+@media (max-width: 968px) {
+    .sitemap {
+        margin-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .sitemap__title {
+        font-size: 3.2rem;
+    }
+
+    .sitemap__grid {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sitemap {
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .sitemap__title {
+        font-size: 2.8rem;
+    }
+
+    .sitemap__description {
+        font-size: 1.4rem;
+    }
+
+    .sitemap__section {
+        padding: 20px;
+    }
+
+    .sitemap__section-title {
+        font-size: 1.8rem;
+    }
+
+    .sitemap__link {
+        font-size: 1.4rem;
+    }
+
+    .sitemap__sublink {
+        font-size: 1.3rem;
+    }
+}
