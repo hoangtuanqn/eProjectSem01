@@ -58,7 +58,7 @@ export default function Footer() {
                             <p className="footer__link-wrap">
                                 <Mail size={18} />
                                 Email:
-                                <a href="mailto:{process.env.REACT_APP_BRAND_EMAIL}" className="footer__link">
+                                <a href={`mailto:${process.env.REACT_APP_BRAND_EMAIL}`} className="footer__link">
                                     {process.env.REACT_APP_BRAND_EMAIL}
                                 </a>
                             </p>
@@ -66,7 +66,7 @@ export default function Footer() {
                             <p className="footer__link-wrap">
                                 <Phone size={18} />
                                 Phone:
-                                <a href="tel:{process.env.REACT_APP_BRAND_PHONE}" className="footer__link">
+                                <a href={`tel:${process.env.REACT_APP_BRAND_PHONE}`} className="footer__link">
                                     {process.env.REACT_APP_BRAND_PHONE}
                                 </a>
                             </p>

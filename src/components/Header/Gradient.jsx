@@ -8,11 +8,11 @@ export default function Gradient() {
                 <div className="container">
                     <div className="gradient__inner dfbetween">
                         <div className="gradient__info dfbetween hiddenMobile">
-                            <a href="tel:0812665001" className="gradient__phone dfcenter">
+                            <a href={`tel:${process.env.REACT_APP_BRAND_PHONE}`} className="gradient__phone dfcenter">
                                 <img src={`${process.env.REACT_APP_BASE_URL}/assets/icon/phone.svg`} alt="Phone" className="gradient__icon" />
                                 {process.env.REACT_APP_BRAND_PHONE}
                             </a>
-                            <a href="mailto:{process.env.REACT_APP_BRAND_EMAIL}" className="gradient__email dfcenter">
+                            <a href={`mailto:${process.env.REACT_APP_BRAND_EMAIL}`} className="gradient__email dfcenter">
                                 <img src={`${process.env.REACT_APP_BASE_URL}/assets/icon/email.svg`} alt="Email" className="gradient__icon" />
                                 {process.env.REACT_APP_BRAND_EMAIL}
                             </a>

@@ -135,7 +135,7 @@ export default function Policies() {
                                     If you have any questions about our Privacy Policy or wish to exercise your rights,
                                     please contact our Data Protection Officer at{" "}
                                     <a
-                                        href="mailto:{process.env.REACT_APP_BRAND_EMAIL}"
+                                        href={`mailto:${process.env.REACT_APP_BRAND_EMAIL}`}
                                         className="policies__highlight"
                                     >
                                         {process.env.REACT_APP_BRAND_EMAIL}
